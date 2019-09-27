@@ -1,0 +1,253 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> cobimr@protonmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Josue Lopez | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta
+      name="keywords"
+      content="lopze94, josue, lopez, javascript, react, html, css"
+    />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Josue Lopez | Full-Stack Web Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is
+          <span class="text-color-main">Josu&eacute; L&oacute;pez</span>
+          <br />
+          I'm a Full-Stack Web Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Learn More</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/img/josue-lopez-profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I&#39;m a self-taught full-stack web developer who also happens
+                to know finance (because I studied that in college). I have a
+                serious passion for improving financial systems to efficiently
+                manage assets and grow economies. I strive to deliver easy and
+                pleasant solutions to end users when working on the front-end,
+                back-end, or both ends of an application.
+              </p>
+              <p class="about-wrapper__info-text">
+                Check out my resume and some of my projects below.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="src/assets/docs/josue-lopez-resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">in-Q System</h3>
+                <div>
+                  <p class="mb-4">
+                    Open-source project that aims to gamify task management and
+                    improve team efficiency. in-Q is currently under development
+                    at the BYU Physics and Astronomy Department. The system
+                    allows professors and office administrators to manage
+                    projects efficiently, keep track of progress, and
+                    communicate with team members.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://inq.josuelopez.dev"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://git.physics.byu.edu/csr-office/task-management"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/img/in-q-system.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">BYU Honors Program</h3>
+                <div>
+                  <p class="mb-4">
+                    Created a Custom Content Management System for the Honors
+                    Program website at BYU. Honors students are able to schedule
+                    appointments with advisors, see events, and read articles
+                    and student spotlights through the website.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://honors.byu.edu"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/lopze94/BYU-Honors-Program"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img
+                      class="img-fluid"
+                      src="./assets/img/honors-program.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            (801) 400 - 8794
+          </p>
+          <p class="contact-wrapper__text">
+            me@josuelopez.dev
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:me@josuelopez.dev"
+            >Hire Me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/lopez-josue/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/lopze94" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <!-- /END Social Links -->
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
